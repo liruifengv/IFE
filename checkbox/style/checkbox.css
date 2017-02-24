@@ -1,0 +1,37 @@
+body{
+    background-color: #fff;
+}
+.container{
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    margin: 0 ;
+}
+
+/*¶¨Î»±³¾°Í¼Æ¬*/
+.checkbox input[type="checkbox"]{
+    display: none;
+}
+.checkbox label{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:url(../img/checkbox.png) -25px -33px;
+    margin: 10px;
+}
+.checkbox input[type="checkbox"]:checked+label{
+    background-position: -60px -32px;
+}
+.radio input[type="radio"]{
+    display: none;
+}
+.radio label{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:url(../img/checkbox.png) -24px -10px;
+    margin: 10px;
+}
+.radio input[type="radio"]:checked+label{
+    background-position: -59px -10px;
+}
