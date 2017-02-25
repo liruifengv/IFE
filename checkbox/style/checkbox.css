@@ -9,29 +9,111 @@ body{
 }
 
 /*定位背景图片*/
-.checkbox input[type="checkbox"]{
+.checkbox-img input[type="checkbox"]{
     display: none;
 }
-.checkbox label{
+.checkbox-img label{
     display: inline-block;
     width: 20px;
     height: 20px;
     background:url(../img/checkbox.png) -25px -33px;
     margin: 10px;
 }
-.checkbox input[type="checkbox"]:checked+label{
+.checkbox-img input[type="checkbox"]:checked+label{
     background-position: -60px -32px;
 }
-.radio input[type="radio"]{
+.radio-img input[type="radio"]{
     display: none;
 }
-.radio label{
+.radio-img label{
     display: inline-block;
     width: 20px;
     height: 20px;
     background:url(../img/checkbox.png) -24px -10px;
     margin: 10px;
 }
-.radio input[type="radio"]:checked+label{
+.radio-img input[type="radio"]:checked+label{
     background-position: -59px -10px;
 }
+
+/*使用伪元素*/
+.checkbox-style input[type="checkbox"]{
+    display: none;
+}
+.checkbox-style label{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #d9d9d9;
+    margin: 10px;
+}
+.checkbox-style input[type="checkbox"]:checked+label{
+    position: relative;
+    border-color: #d73e33;
+}
+.checkbox-style input[type="checkbox"]:checked+label::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 8px;
+    display: inline-block;
+    background-color: #d73e33;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px;
+}
+.checkbox-style input[type="checkbox"]:checked+label::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 4px;
+    display: inline-block;
+    background-color: #d73e33;
+    transform: rotate(135deg);
+    left: 2px;
+    top: 5px;
+}
+
+.radio-style input[type="radio"]{
+    display: none;
+}
+.radio-style label{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #d9d9d9;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.radio-style input[type="radio"]:checked+label{
+    border-color: #d73e33;
+    position: relative;
+}
+.radio-style input[type="radio"]:checked+label:after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    left: 4px;
+    top: 4px;
+    background-color: #d73e33;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
