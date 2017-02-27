@@ -35,17 +35,18 @@ body{
     background-color: #fff;
 }
 .row{
- text-align: center;
-    margin: 0 auto;
+margin-top: 20px;
+    margin-left: 250px;
 }
 .input{
     background-color: royalblue;
     border: 1px solid #ffffff;
     border-radius: 10px;
-    width: 95%;
+    width: 90%;
     height: 40px;
     color: #fff;
     font-size: 20px;
+
 }
 .public-footer{
     background-color:#000000;
@@ -55,4 +56,8 @@ body{
     margin: 0 auto;
     color: #fff;
     padding-top: 30px;
+}
+textarea{
+    width: 800px;
+    height: 100px;
 }
