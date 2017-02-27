@@ -77,22 +77,22 @@
     </table>
 </div>
 <div class="container">
-    <h1>这是一个侧边栏</h1>
+    <h3 style="border-left: 2px solid #999">这是一个侧边栏</h3>
     <div class="row">
         <form>
-            <label>请输入邮箱地址<input type="text"></label><br>
-            <label>请输入你的密码<input type="text"></label><br>
+            <label>请输入邮箱地址<input type="text" placeholder="请输入正确的邮箱格式"></label><br>
+            <label>请输入你的密码<input type="text" placeholder="********************"></label><br>
         </form>
         <br>
         <form>
-            <p>性别</p>
+            性别：
             <input type="radio" id="radio1" name="sex" value="man" checked="checked">
             <label for="radio1">男</label>
             <input type="radio" id="radio2" name="sex" value="woman">
             <label for="radio2">女</label>
         </form>
         <br>
-        <p>居住城市</p>
+        城市：
         <select>
             <option value="北京">北京</option>
             <option value="杭州">杭州</option>
@@ -101,7 +101,7 @@
         </select>
         <form>
             <br>
-            <p>爱好</p>
+            爱好：
             <input type="checkbox" id="checkbox1" name="love" checked="checked">
             <label for="checkbox1">运动</label>
             <input type="checkbox" id="checkbox2" name="love">
@@ -112,12 +112,13 @@
             <label for="checkbox4">代码</label>
         </form>
         <br>
-        <p>个人描述</p>
+        个人描述：<br>
         <textarea placeholder="这是一个文本输入框，请输入您的描述"></textarea>
         <br>
         <br>
-        <input class="input" type="submit" value="确认提交" >
+
     </div>
+    <input class="input" type="submit" value="确认提交" >
 </div>
 <div class="public-footer">
     <p class="p">版权所有@</p>
