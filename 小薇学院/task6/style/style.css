@@ -6,13 +6,13 @@ body{
     background-color: #d9d9d9;
 }
 .newspaper{
-    position: absolute;
+    position: absolute; /*绝对定位*/
     width: 980px;
     height: 1386px;
     background-color: #fff;
 }
 header{
-    position: relative;
+    position: relative;  /*相对定位*/
     width: 892px;
     height: 61px;
     border-bottom: 2px solid #938e8c;
@@ -23,19 +23,15 @@ header{
     width: 110px;
     height: 61px;
     background-color:#d45d5c;
-    display: table;
+    display: table; /*块级表格，类似table,前后带有换行符*/
 }
 .header-logo p{
     font-size: 12px;
     font-family: SimHei ;
     color: #fff;
     text-align:left;
-    display: table-cell;
-    vertical-align: bottom;
-}
-
-.header-date{
-    position: absolute;
+    display: table-cell; /*表格单元，类似<td>和<th>*/
+    vertical-align: bottom; /*设置元素垂直对齐方式：把元素顶端与行中最低元素的顶端对齐*/
     right: 0px;
     bottom: 0px;
 }
@@ -47,7 +43,7 @@ header{
 }
 main{
     width: 980px;
-    margin: 40px auto;
+    margin: 40px auto;  /*上下40px，左右自适应居中*/
 }
 .img1{
     float: left;
@@ -70,8 +66,8 @@ main{
     color: #000;
     font-family: Microsoft YaHei;
     text-decoration: underline;
-    font-variant: small-caps;
-    text-transform: capitalize;
+    font-variant: small-caps;  /*把所有小写字母转换成小型大写字母*/
+    text-transform: capitalize;/*每个单词以大写字母开头 */
 
 }
 .technologe .p2{
@@ -84,7 +80,7 @@ main{
     font-family: Microsoft YaHei;
     font-size: 116px;
     color: #75b86b;
-    font-style:oblique;
+    font-style:oblique;/*倾斜*/
 }
 .technologe .p4{
    font-size: 55px;
@@ -135,7 +131,7 @@ main{
     line-height: 16px;
     margin-top: 10px;
     margin-bottom: 40px;
-    opacity: 0.7;
+    opacity: 0.7; /*透明度*/
 }
 .when{
     width: 220px;
@@ -238,7 +234,7 @@ article p{
 .p7{
     margin-top: 20px;
 }
-.p7::first-letter{
+.p7::first-letter{   /*匹配第一个字母样式，首词大写，大写字母下沉*/
     font-size: 70px;
     color: #f5e327;
     font-family: "Microsoft YaHei";
@@ -246,7 +242,7 @@ article p{
     padding: 30px 10px 30px 0px;
 }
 .p8,.p9{
-    text-indent: 2em;
+    text-indent: 2em;/*首行缩进*/
 }
 .img2{
     width: 191px;
@@ -288,7 +284,7 @@ aside{
     font-family: "Microsoft YaHei";
     font-size: 26px;
     color: #fff;
-    display: inline-block;
+    display: inline-block;/*内联块级表格，前后没有换行符*/
     padding: 0px 10px;
     margin-left: 40px;
     margin-top: 10px;
@@ -303,7 +299,7 @@ aside{
     line-height: 140%;
     position: relative;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle;/*把子元素放在父元素的中部*/
     height: 30px;
     margin: 10px;
     right: 100px;
@@ -343,7 +339,7 @@ aside{
     width: 260px;
     height: 160px;
     background-color: #d45d5c;
-    box-sizing: border-box;
+    box-sizing: border-box; /*带边框的盒子*/
     padding: 20px 10px;
     position: absolute;
     bottom: 0px;
@@ -374,7 +370,7 @@ aside{
     font-family: SimHei;
     line-height: 16px;
     margin-left: 5px;
-    display: block;
+    display: block;        /*块级元素，前后带有换行符*/
     padding-left: 5px;
 }
 .hello{
@@ -429,7 +425,7 @@ footer p{
     right:0px;
     top:0px;
 }
-
+/*用css画三角形*/
 .sanjiao{
     width: 0px;
     height: 0px;
