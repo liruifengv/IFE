@@ -6,7 +6,7 @@
     position: absolute;              /*¾ø¶Ô¶¨Î»*/
     background-color: #fff;
     width: 1280px;
-    height: 4554px;
+    height: 4500px;
 }
 header{
     background-color: #fff;
@@ -73,7 +73,7 @@ footer{
     position: absolute;
     height: 418px;
     width: inherit;
-    top: 4136px;
+    top: 4080px;
 }
 footer .footer-top{
     position: absolute;
@@ -549,4 +549,220 @@ main{
 .right li:first-child{
     list-style-type:disc;
 }
+.newage{
+    height: 521px;
+    width: 1280px;
+    position: relative;
+    top: 548px;
+}
+ .newage .main{
+    height: 521px;
+    margin: 0 426px;
+    background-color: #fff;
+}
+.newage .left1{
+    position: absolute;
+    width: 426px;
+    height: 521px;
+    left: 0;
+    top: 0;
+    background-color: #e74f4d;
+}
+.newage .right1{
+    position: absolute;
+    width: 426px;
+    height: 521px;
+    right: 0;
+    top: 0;
+    background:url("../img/right.png");
+    opacity: 0.6;
+}
+.left1 p{
+    position: relative;
+    top: 170px;
+    text-align: center;
+    line-height: 30px;
+    font-family: SimHei;
+    font-size: 21px;
+    color: #fff;
+}
+.left1 input{
+    position: relative;
+    top: 210px;
+    left: 127px;
+    color: #fff;
+    text-align: center;
+    font-family:SimHei;
+    font-size: 21px;
+    width: 165px;
+    height: 45px;
+    background-color: #e74f4d;
+    border: 1px solid #fff;
+}
+.main p{
+    position: relative;
+    top: -380px;
+    text-align: center;
+    line-height: 30px;
+    font-family: SimHei;
+    font-size: 21px;
+    color: #000;
+}
+.main input{
+    position: relative;
+    top: -340px;
+    left: 127px;
+    color: #e74f4d;
+    text-align: center;
+    font-family:SimHei;
+    font-size: 21px;
+    width: 165px;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #e74f4d;
+}
+
+.form{
+    width: 1280px;
+    height: 750px;
+    background-color: #fff;
+    position:relative;
+    top: 545px  ;
+}
+.form h5{
+    position: relative;
+    font-family: SimHei;
+    font-size: 21px;
+    color: #000;
+    text-align: center;
+    font-weight: lighter;
+    top: 110px;
+    left: 200px;
+}
+.form p{
+    position: relative;
+    font-family:"Microsoft YaHei";
+    font-size: 12px;
+    color: #aaa;
+    font-weight: lighter;
+    line-height: 18px;
+    text-align: center;
+    top: 130px;
+    left: 200px;
+}
+
+.form-bottom{
+    width: 1280px;
+    height: 450px;
+    position: relative;
+    top: 30%;
+}
+.form-bottom-left{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    left: 120px;
+}
+.form-bottom-left h6{
+    font-family: SimHei;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 60px;
+
+}
+.form-bottom-left span{
+    font-size: 12px;
+    font-family: STSong;
+    line-height: 21px;
+    color: #aaa;
+    margin-top: 20px;
+
+}
+.form-bottom-left a{
+    display: block;
+    border: 1px solid #fff;
+    text-align: right;
+    color: #aaa;
+    text-decoration: none;
+
+}
+.form-bottom-right{
+    position: relative;
+    float: right;
+    width: 650px;
+    height: 300px;
+    left: -120px;
+    top: -280px;
+
+
+}
+.form-bottom-right input{
+    background-color: #ededee;
+    color: #000;
+    border: none;
+    text-align: left;
+
+}
+.form-bottom-right ul{
+
+}
+.form-bottom-right li{
+    background-color: #ededee;
+    padding: 10px;
+    list-style: none;
+    width: 300px;
+    height: 25px;
+    margin: 15px;
+    text-align: left;
+    font-family: STSong;
+    font-size: 12px;
+    color: #aaa;
+
+}
+.form-bottom-right li:nth-child(2){
+    position: relative;
+    left: 350px;
+    top: -60px;
+}
+.form-bottom-right li:nth-child(3){
+    position: relative;
+    top: -60px;
+}
+.form-bottom-right li:nth-child(4){
+    position: relative;
+    top: -120px;
+    left: 350px;
+}
+.form-bottom-right textarea{
+    font-family: STSong;
+    font-size: 12px;
+    width: 650px;
+    height: 115px;
+    background-color: #ededee;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    color: #aaa;
+    position: relative;
+    top: -120px;
+    left: 15px;
+}
+.submit{
+    height: 40px;
+    width: 670px;
+    background-color: #ededee;
+    color: #aaa;
+    text-align: center;
+    border: none;
+    font-family: SimHei;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 50%;
+    position: relative;
+    top: -120px;
+    left: 15px;
+}
+
 
