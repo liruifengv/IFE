@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>模拟队列</title>
+    <style>
+        .item{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            background-color:#fa0000;
+            color: #fff;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn{
+            background-color: #fff;
+            cursor: pointer;
+            color: #000;
+            font-weight: bold;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <label for="input"><input type="text" id="input"></label>
+    <label for="left-in"><input type="button" class="btn" id="left-in" value="左侧入"></label>
+    <label for="right-in"><input type="button" class="btn" id="right-in" value="右侧入"></label>
+    <label for="left-out"><input type="button" class="btn" id="left-out" value="左侧出"></label>
+    <label for="right-out"><input type="button" class="btn" id="right-out" value="右侧出"></label>
+</div>
+
+<div id="playbox"></div>
+
+<script>
+    var input=document.getElementById("input");
+    var leftin=document.getElementById("left-in");
+    var rightin=document.getElementById("right-in");
+    var leftout=document.getElementById("left-out");
+    var rightout=document.getElementById("right-out");
+    var playbox=document.getElementById("playbox");
+
+    //如果输入框input里面不是数字，则弹窗提示:请输入数字
+    input.addEventListener("blur",function(){
+        if(!input.value.match(/^[0-9]*$/)){
+            alert("请输入数字");
+            input.value="";
+        }
+    },false)
+
+    //设置左侧入按钮
+    //点击"左侧入"，将input中输入的数字从左侧插入队列中；
+
+    leftin.addEventListener("click",function(){                //添加监听事件
+        if(input.value==""||input.value==null){               //查看输入是否为空
+            return false;
+        }
+        var item=document.createElement("div");            //创建新的div元素
+        item.className="item";                             //给div元素添加名为“item”的class属性
+        var text=document.createTextNode(input.value);    //获取输入框内的值
+        item.appendChild(text);                             //把获取的值添加到item里
+        playbox.insertBefore(item,playbox.childNodes[0]);  //用insertbefore方法把item元素添加到playbox的第一个节点位置
+    },false)
+
+    //设置右侧入按钮
+    //点击"右侧入"，将input中输入的数字从右侧插入队列中；
+    rightin.addEventListener("click",function(){
+        if(input.value==""||input.value==null){
+            return false;
+        }
+        var item=document.createElement("div");              //同上
+        item.className="item";
+        var text=document.createTextNode(input.value);
+        item.appendChild(text);
+
+        playbox.appendChild(item);                            //因为右侧入，所有直接appendChild
+    },false)
+
+    //设置左侧出按钮
+    //点击"左侧出"，读取并删除队列左侧第一个元素，并弹窗显示元素中数值；
+
+    leftout.addEventListener("click",function(){                        //添加监听事件
+        if(playbox.childNodes.length==0){                             //如果playbox的节点长度为0，即还没有输入数字；
+            alert("请先输入数字！");                                      //弹窗：请输入数字
+            return false;
+        }
+        alert("删除最左侧的数字："+ playbox.firstChild.innerHTML);    //弹窗 显示删除的节点
+        playbox.removeChild(playbox.firstChild);                       //用removeChild方法删除第一个节点
+    },false)
+
+    //设置右侧出按钮
+    //点击"右侧出"，读取并删除队列又侧第一个元素，并弹窗显示元素中数值；
+    rightout.addEventListener("click",function(){
+        if(playbox.childNodes.length==0){
+            alert("请先输入数字！");
+            return false;
+        }
+        alert("删除最右侧的数字："+playbox.lastChild.innerHTML);
+        playbox.removeChild(playbox.lastChild);
+    },false)
+
+    //设置队列中item
+    //点击队列中任何一个元素，则该元素会被从队列中删除
+    playbox.addEventListener("click",function(e){
+            playbox.removeChild(e.target);
+    },false)
+</script>
+
+
+
+</body>
+</html>
