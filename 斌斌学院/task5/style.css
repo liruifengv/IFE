@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 5px 5px;
+}
+.btn{
+    width: 60px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+#container{
+    display: flex;
+    height: 220px;
+    align-items: flex-end;
+}
+#container li{
+    list-style-type: none;
+    background-color: #FF0000;
+    margin: 5px 5px;
+    padding: 0px;
+    width: 18px;
+    cursor: pointer;
+}
