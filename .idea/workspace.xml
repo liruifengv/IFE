@@ -5,8 +5,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度糯米/oncontextmenu/style/index.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度糯米/oncontextmenu/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度糯米/oncontextmenu/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/百度糯米/oncontextmenu/scripts/oncontextmenu.js" afterPath="$PROJECT_DIR$/百度糯米/oncontextmenu/scripts/oncontextmenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/百度糯米/oncontextmenu/style/style.css" afterPath="$PROJECT_DIR$/百度糯米/oncontextmenu/style/style.css" />
+      <change type="MODIFICATION" beforePath="E:\Git1\IFE\百度糯米\oncontextmenu\scripts\oncontextmenu.js" afterPath="E:\Git1\IFE\百度糯米\oncontextmenu\scripts\oncontextmenu.js" />
+      <change type="MODIFICATION" beforePath="E:\Git1\IFE\百度糯米\oncontextmenu\style\style.css" afterPath="E:\Git1\IFE\百度糯米\oncontextmenu\style\style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IFE.iws" />
@@ -346,7 +346,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29615954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -701,30 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.375">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/oncontextmenu/scripts/oncontextmenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/oncontextmenu/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48688525">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/oncontextmenu/oncontextmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8235292">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
