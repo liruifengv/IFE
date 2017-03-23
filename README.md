@@ -1,2 +1,24 @@
-# IFE
-IFE-studyTask
+# [IFE](http://ife.baidu.com/)
+### BaiduNuomi
+- RegExp
+-  checkbox
+-  oncontextmenu
+### HTML&&CSS
+- task1
+- task2
+- task3
+- task4
+- task5
+- task6
+- task7
+- task8
+- task9
+- task10
+- task11
+- task12
+### JavaScript
+- task1
+- task2
+- task3
+- task4
+- task5
