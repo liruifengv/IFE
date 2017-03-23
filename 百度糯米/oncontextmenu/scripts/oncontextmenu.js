@@ -10,10 +10,10 @@ function oncontextmenu(){
     browserHeight=window.innerHeight;
     browserWidth=window.innerWidth;
 
-    document.oncontextmenu=function(e){
+    document.oncontextmenu=function(el){
         menu.style.display="block";
         document.body.style.overflow="hidden";
-        var e=e||window.event;
+        var e=el||window.event;
         scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
         scrollLeft=document.documentElement.scrollLeft||document.body.scrollLeft;
         clientX= e.clientX;
