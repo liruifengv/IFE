@@ -1,8 +1,11 @@
 # [IFE](http://ife.baidu.com/)
 ### BaiduNuomi
 - RegExp
--  checkbox
--  oncontextmenu
+  - [demo](https://liruifengv.github.io/IFE/BaiduNuomi/RegExp/RegExp.html)
+- checkbox
+  - [domo](https://liruifengv.github.io/IFE/BaiduNuomi/checkbox/checkbox.html)
+- oncontextmenu
+  - [demo](https://liruifengv.github.io/IFE/BaiduNuomi/oncontextmenu/index.html)
 ### HTML&&CSS
 - task1
 - task2
