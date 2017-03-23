@@ -3,7 +3,7 @@
 - RegExp
   - [demo](https://liruifengv.github.io/IFE/BaiduNuomi/RegExp/RegExp.html)
 - checkbox
-  - [domo](https://liruifengv.github.io/IFE/BaiduNuomi/checkbox/checkbox.html)
+  - [demo](https://liruifengv.github.io/IFE/BaiduNuomi/checkbox/checkbox.html)
 - oncontextmenu
   - [demo](https://liruifengv.github.io/IFE/BaiduNuomi/oncontextmenu/index.html)
 ### HTML&&CSS
