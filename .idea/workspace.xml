@@ -2,9 +2,299 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="690b4d91-d076-4d72-8967-8f38e3ec4fef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度糯米/正则表达式/RegExp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度糯米/正则表达式/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\.idea\小薇学院.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task10\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task10\test1.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task10\test2.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\Left.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\img.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\img0.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\img1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\img3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\img4.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\img\img5.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task11\style\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task12\CSS3轮播.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task12\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\00-25-08-400_25470420-1379-ne2t-tdt6-n203ank655cl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\00-45-21-728da9773912b31b1c3fa5598618367adab4e16b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\00-45-32-0b55b319ebc4b74502393e30cffc1e178a821562.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\01-24-59-9651eec8gw1erlkkgq4ifj20s90l0447.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\02-03-07-dbb44aed2e738bd4bdc77b35a68b87d6267ff9d4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\03-19-58-10-15051412502I02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\03-21-57-129326101457522.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\03-23-05-middle_130220_ukkluuak_99751133c98328e994ec7f69f5437b39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\03-24-51-20151027125129_rhLBu.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\03-28-34-902397dda144ad34bb9939dad0a20cf431ad854d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\0c3606ae40db51cd7cd02c414019047d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\12-45-41-c83d70cf3bc79f3daa43bd6cb9a1cd11738b29cf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\12-46-09-9919.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\13-01-03-20150916103021_kj4RP.thumb.700_0.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\13-01-27-86d6277f9e2f0708d57b0b1aee24b899a901f2aa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\14-160323230132c922-21-00-.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\151859hi034az4uv5av4no.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\151919ifsfzav0lz23sfqf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\15918455-8fa4ce576d64d43e2d0ae4d4e517f27f-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\160045545730053859.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\17-37-27-b219ebc4b74543a9d0306acd19178a82b9011483.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\195534mmq5dpmot5qoqqzp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\1980e682461775f16424ff25bf102df8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\20-52-34-bdb4de5783d3b029062602da1dad_400_400.c8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\2007e17d05e9666a0762910b4f2f788b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\20150518190459_3fQwn22-20-46-.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\2016122102122118200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\207357869131785698.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\22-34-03-Gucn_2011031638318081247Pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\29422-20-36-.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\294555496075081577.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\2c3867486525e2593958c52074ed0592.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\2e64e48be7f0aa99ba35a1d5b4c595b524d749e2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\3729a66eddc451dae9f80b02befd5266d21632cc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\37f3bcbbb4c64bf6a840.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\384927340646257471.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\410053035287370457.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\4272609944_9553ac011a_o-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\4272609944_9553ac011a_o.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\447140994723281279.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\558350434962645924.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\567407633587921378.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\579210096305599661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\58412202e1e41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\598d022bx6f84cd6889c9&amp;690.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\59b5fa894b5ad3769b034936d5d7c3bd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\621642245358072054.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\646092558079730678.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\691.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\69ff1cd01d618141c8d02e0cf191bc5a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\718673037d8c2d6c444da68bf5f04f85.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\7714929abc28cfbe58e56ce672332cdd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\7908e66aa9596d0d0e881474b12379c9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\7908e66aa9596d0d0e881474b12379c9.jpg_" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\81d7fc9cd447646108c05281464a7d98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\828865194513243866.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\887697993362167463.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\8b65b38bd7bef5f2d57b1728305691b0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\94e678d8adbc4848b0558d510b7e0cdb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\96aff5c6912785142b1bca141cad21de.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\9a015966d01609242fa18bf2dc0735fae4cd344a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\C5BNhTTUkAA7nJJ.jpg-large" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\IMG_20160903_114953.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\IMG_20161222_130553.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\IMG_20161222_130734.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\IMG_20161231_154323.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\IMG_20170215_034309.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\IMG_20170215_034446.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\IMG_20170215_034446_mh1487101984860.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\a071c292f322324b479042bc7c5ccd42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\a079eacc9d770f9fdad14b81fa4755e7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\acac88339ba45c9c9726011ce4eb25e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\app-prod-release_21432363_9_nowcoder_sign.apk" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\b151f8198618367a28c852ce2d738bd4b31ce564.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\b535f0875b46e56c1b1702b48f839d50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\be50cc6b96b5fbfa7931f7715fa8e6f2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\bf02b3b6c2c21162e36b62d38b2a4e55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\c22e3170b0e165f7954c3b7128ba0d65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\c738bc4543a9822607a4e7cf8282b9014890ebea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\c9fcc3cec3fdfc03d95256ffd53f8794a4c2264a23-47-34-.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\cc7a2c3abd69d1090ed4a56293bb7f0d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\f5cfc395d143ad4bad2041298a025aafa60f06cc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\fffef57000ec265572a97996ad65e0a9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\goMeirongTemp_mr1487103301836.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\photo-1424847479658-f428da5dced2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\photo-1439894671367-1904e126d8f1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\photo-1476482817271-4de4622d88fd.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\photoshopcs6破解补丁@92_135369.exe" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\qrcode_for_gh_2d60cfac42ca_430.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\ren.growth_2.5.0_250000.apk" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\u=3743176582,2413102641&amp;fm=11&amp;gp=0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\your_name-001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\yourname-002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\微信截图_20170221165254.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\微信截图_20170221165449.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\微信截图_20170221180831.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\img\微信截图_20170221181058.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task1\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2.zip" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\00-25-08-400_25470420-1379-ne2t-tdt6-n203ank655cl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\00-45-21-728da9773912b31b1c3fa5598618367adab4e16b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\00-45-32-0b55b319ebc4b74502393e30cffc1e178a821562.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\01-24-59-9651eec8gw1erlkkgq4ifj20s90l0447.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\02-03-07-dbb44aed2e738bd4bdc77b35a68b87d6267ff9d4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\03-19-58-10-15051412502I02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\03-21-57-129326101457522.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\03-23-05-middle_130220_ukkluuak_99751133c98328e994ec7f69f5437b39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\03-24-51-20151027125129_rhLBu.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\03-28-34-902397dda144ad34bb9939dad0a20cf431ad854d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\0c3606ae40db51cd7cd02c414019047d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\12-45-41-c83d70cf3bc79f3daa43bd6cb9a1cd11738b29cf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\12-46-09-9919.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\13-01-03-20150916103021_kj4RP.thumb.700_0.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\13-01-27-86d6277f9e2f0708d57b0b1aee24b899a901f2aa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\14-160323230132c922-21-00-.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\151859hi034az4uv5av4no.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\151919ifsfzav0lz23sfqf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\15918455-8fa4ce576d64d43e2d0ae4d4e517f27f-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\160045545730053859.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\17-37-27-b219ebc4b74543a9d0306acd19178a82b9011483.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\195534mmq5dpmot5qoqqzp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\1980e682461775f16424ff25bf102df8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\20-52-34-bdb4de5783d3b029062602da1dad_400_400.c8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\2007e17d05e9666a0762910b4f2f788b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\20150518190459_3fQwn22-20-46-.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\2016122102122118200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\207357869131785698.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\22-34-03-Gucn_2011031638318081247Pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\29422-20-36-.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\294555496075081577.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\2c3867486525e2593958c52074ed0592.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\2e64e48be7f0aa99ba35a1d5b4c595b524d749e2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\3729a66eddc451dae9f80b02befd5266d21632cc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\37f3bcbbb4c64bf6a840.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\384927340646257471.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\410053035287370457.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\4272609944_9553ac011a_o-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\4272609944_9553ac011a_o.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\447140994723281279.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\558350434962645924.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\567407633587921378.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\579210096305599661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\58412202e1e41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\598d022bx6f84cd6889c9&amp;690.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\59b5fa894b5ad3769b034936d5d7c3bd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\621642245358072054.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\646092558079730678.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\691.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\69ff1cd01d618141c8d02e0cf191bc5a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\718673037d8c2d6c444da68bf5f04f85.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\7714929abc28cfbe58e56ce672332cdd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\7908e66aa9596d0d0e881474b12379c9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\7908e66aa9596d0d0e881474b12379c9.jpg_" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\81d7fc9cd447646108c05281464a7d98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\828865194513243866.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\887697993362167463.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\8b65b38bd7bef5f2d57b1728305691b0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\94e678d8adbc4848b0558d510b7e0cdb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\96aff5c6912785142b1bca141cad21de.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\9a015966d01609242fa18bf2dc0735fae4cd344a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\C5BNhTTUkAA7nJJ.jpg-large" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\IMG_20160903_114953.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\IMG_20161222_130553.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\IMG_20161222_130734.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\IMG_20161231_154323.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\IMG_20170215_034309.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\IMG_20170215_034446.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\IMG_20170215_034446_mh1487101984860.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\a071c292f322324b479042bc7c5ccd42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\a079eacc9d770f9fdad14b81fa4755e7.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\acac88339ba45c9c9726011ce4eb25e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\app-prod-release_21432363_9_nowcoder_sign.apk" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\b151f8198618367a28c852ce2d738bd4b31ce564.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\b535f0875b46e56c1b1702b48f839d50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\be50cc6b96b5fbfa7931f7715fa8e6f2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\bf02b3b6c2c21162e36b62d38b2a4e55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\c22e3170b0e165f7954c3b7128ba0d65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\c738bc4543a9822607a4e7cf8282b9014890ebea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\c9fcc3cec3fdfc03d95256ffd53f8794a4c2264a23-47-34-.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\cc7a2c3abd69d1090ed4a56293bb7f0d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\f5cfc395d143ad4bad2041298a025aafa60f06cc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\fffef57000ec265572a97996ad65e0a9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\goMeirongTemp_mr1487103301836.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\header-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\photo-1424847479658-f428da5dced2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\photo-1439894671367-1904e126d8f1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\photo-1476482817271-4de4622d88fd.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\photoshopcs6破解补丁@92_135369.exe" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\qrcode_for_gh_2d60cfac42ca_430.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\ren.growth_2.5.0_250000.apk" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\u=3743176582,2413102641&amp;fm=11&amp;gp=0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\your_name-001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\yourname-002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\微信截图_20170221165254.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\微信截图_20170221165449.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\微信截图_20170221180831.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\img\微信截图_20170221181058.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\style\common.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task2\style\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task3\BFC三栏布局.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task3\Flex.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task3\table布局.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task3\双飞翼布局.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task3\圣杯布局.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task3\流体布局.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task3\绝对定位布局.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task4\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task5\img\151919ifsfzav0lz23sfqf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task5\img\goMeirongTemp_mr1487103301836.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task5\img\header-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task5\img\汤唯.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task5\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task5\style\common.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task5\style\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task6\img\img1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task6\img\img2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task6\img\img3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task6\img\task6.psd" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task6\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task6\style\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\beijing.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\biglogo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\icon3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\icon4.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\img1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\item1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\item2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\item3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\item4.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\maps.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\more.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\newworld.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\right.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\shanghai.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\shenzhen.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\sign.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\task_1_7_1.psd" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\img\xianggang.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task7\style\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task8\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\小薇学院\task8\style\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\.idea\斌斌学院.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\task1\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\task2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\task3\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\task4\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\task5\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\task5\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\斌斌学院\task5\style.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\checkbox\checkbox.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\checkbox\img\checkbox.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\checkbox\style\checkbox.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\oncontextmenu\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\oncontextmenu\scripts\addLoadEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\oncontextmenu\scripts\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\oncontextmenu\style\index.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\正则表达式\2c3867486525e2593958c52074ed0592.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\正则表达式\RegExp.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\正则表达式\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Git1\IFE\百度糯米\正则表达式\index.html" afterPath="" />
     </list>
     <ignored path="IFE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,20 +316,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="RegExp.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/百度糯米/正则表达式/RegExp.html">
+        <entry file="file://$PROJECT_DIR$/BaiduNuomi/RegExp/RegExp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.03125">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/百度糯米/正则表达式/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.088235">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.046875">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -176,25 +456,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="百度糯米" />
+              <option name="myItemId" value="BaiduNuomi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="正则表达式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IFE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IFE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="百度糯米" />
+              <option name="myItemId" value="RegExp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,7 +474,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="小薇学院" />
+              <option name="myItemId" value="BaiduNuomi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +556,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29615954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -328,185 +594,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/小薇学院/task7/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task7/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task6/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task7/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task7/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task6/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="173" column="6" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task5/style/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task5/style/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task2/style/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task2/style/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bootstrap-study/仿Google主页/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0882354">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="98" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task3/绝对定位布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3823528">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task5/style/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task5/style/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2152777">
-          <caret line="173" column="6" selection-start-line="173" selection-start-column="6" selection-end-line="173" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task7/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task7/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task6/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.390625">
-          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task10/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task10/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -517,75 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task8/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task11/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Web前端/Resume-gh-pages/print.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1428572">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task11/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task10/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task12/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task12/CSS3轮播.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/斌斌学院/task4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.029412">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/斌斌学院/task3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.40625">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,100 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/oncontextmenu/index.html">
+    <entry file="file://$PROJECT_DIR$/BaiduNuomi/RegExp/RegExp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5882353">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/oncontextmenu/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/斌斌学院/task5/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/斌斌学院/task5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.375">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/斌斌学院/task5/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/斌斌学院/task2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task2/style/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/oncontextmenu/style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9295082">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task2/style/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9557377">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小薇学院/task2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.796875">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/正则表达式/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.088235">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度糯米/正则表达式/RegExp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.03125">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.046875">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding />
         </state>
       </provider>
