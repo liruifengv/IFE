@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .carousel{
+            width: 200px;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        .slider{
+            width: 600px;
+            height: 100px;
+            list-style: none;
+            animation: slide 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes slide{
+            0%{margin-left: 0;}
+            23%{margin-left: 0;}
+            33%{margin-left: -200px;}
+            56%{margin-left: -200px;}
+            66%{margin-left: -400px;}
+            90%{margin-left: -400px;}
+            100%{margin-left: 0px;}
+        }
+        .slider li{
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            float: left;
+        }
+        .slider li:first-child{
+            background-color: #0000fa;
+        }
+        .slider li:nth-child(2){
+            background-color: #ff0000;
+        }
+        .slider li:last-child{
+            background-color: #00bf00;
+        }
+        .carousel a{
+            position: absolute;
+            bottom: 0;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(255,255,255,0.5);
+            text-align: center;
+            z-index: 5;
+        }
+        .carousel a:hover{
+            cursor: pointer;
+        }
+        .carousel #p1{
+            right: 0;
+        }
+        .carousel #p2{
+            right: 22px;
+        }
+        .carousel #p3{
+            right: 44px;
+        }
+    </style>
+</head>
+<body>
+<div class="carousel">
+    <ul class="slider">
+        <li id="1"></li>
+        <li id="2"></li>
+        <li id="3"></li>
+    </ul>
+    <a href="#1" id="p1">1</a>
+    <a href="#2" id="p2">2</a>
+    <a href="#3" id="p3">3</a>
+</div>
+
+</body>
+</html>

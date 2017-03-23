@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #f5f5f5;
+}
+header{
+    height: 11.4vw;
+    background-color: #91d4da;
+    text-align: center;
+}
+header h1{
+    font: 4.8vw/11.4vw 'SimHei';
+    color: #fff;
+}
+header a{
+    color: #fff;
+    width: 12.8vw;
+    height: 6.2vw;
+    position: absolute;
+    left: 3vw;
+    top: 2.6vw;
+    padding-left: 4.2vw;
+    padding-top: 0.4vw;
+    background: transparent url("../img/Left.png") no-repeat;
+    background-size: 3.6vw;
+    font: 4.2vw 'SimHei';
+}
+nav{
+    background-color: #fff;
+}
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+}
+nav ul li{
+    flex: 1;
+    font: 4.2vw/11.6vw 'SimHei';
+    color: #616161;
+    text-align: center;
+}
+nav ul li:hover{
+    border-bottom: 0.8vw solid #91d4da;
+}
+.logo{
+        background: #fff;
+}
+.logo img{
+    width: 100%;
+}
+.list1{
+    background-color: #fff;
+}
+.list1 ul{
+    margin: 0 3vw;
+    border-bottom: 0.3vw solid #e5e5e5;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.list1 ul li{
+    flex: 1;
+    text-align: center;
+    padding-top: 4.4vw;
+}
+.list1 ul li img{
+    width: 12.4vw;
+}
+.list1 ul li p{
+    font: 4vw/12vw 'SimHei';
+}
+.list2{
+    overflow: hidden;
+    background-color: #fff;
+}
+.list2 ul{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 4vw 3.5vw;
+}
+.list2 ul li{
+    flex: 1;
+    text-align: center;
+}
+.list2 ul li img{
+    height: 18.6vw;
+}
+.list2 ul li h1{
+    font: 4.4vw/7.8vw 'SimHei';
+    color: #2e2e2e;
+}
+.list2 ul li h2{
+    font: 3.4vw/5.4vw 'SimHei';
+    color: #5a5b5b;
+}
+.list2 ul li:nth-child(2){
+    border-right: 0.3vw solid #e5e5e5;
+    border-left: 0.3vw solid #e5e5e5;
+}
+
+.moudle{
+    margin-top: 3.6vw;
+    padding: 0 3.2vw;
+    background-color: #fff;
+}
+.moudle h1{
+    display: block;
+    font: 4.6vw/11.8vw 'SimHei';
+    border-bottom: 0.3vw solid #ebebeb;
+}
+.moudle ul{
+    display: flex;
+    margin-top: 2.4vw;
+    flex-flow: row nowrap;
+}
+.moudle ul li{
+    flex: 1;
+    text-align: center;
+}
+.moudle ul li img{
+    width: 24vw;
+    margin-right: 2.4vw;
+}
+.moudle ul li p{
+    width: 32vw;
+    margin-right: 2.4vw;
+    margin-bottom: 2.4vw;
+    background-color: #f8f8f8;
+    font: 3.6vw/10vw 'SimHei';
+}
+
+article{
+    background-color: #fff;
+    margin-top: 3.6vw;
+}
+.article1{
+    padding: 3vw;
+    border-bottom: 0.6vw solid #f8f8f8;
+}
+.article1 ul{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.article1 ul li:first-child{
+    flex: 1;
+}
+.article1 ul li:last-child{
+    margin-right: 6vw;
+    flex: 2;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.article1 ul li img{
+    width: 28vw;
+    margin-right: 2.4vw;
+}
+.article1 ul li h1{
+    font: 4.5vw 'Microsoft YaHei';
+    flex: 1 1 0%;
+}
+.article1 ul li p{
+    color: #c8c8c8;
+    font: 3.6vw 'SimHei';
+}
+.article2{
+    padding: 3vw;
+}
+.article2 h1{
+    font: 4.5vw 'Microsoft YaHei';
+}
+.article2 ul{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.article2 ul li{
+    flex: 1;
+}
+.article2 ul li img{
+    width: 95%;
+}
+.article2 p{
+    font: 3.6vw 'SimHei';
+    color: #c8c8c8;
+}
+footer{
+    height: 13.4vw;
+}
