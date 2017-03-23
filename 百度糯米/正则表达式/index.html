@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>正则表达式入门</title>
+</head>
+<body>
+
+<script>
+
+    //验证手机号的正则表达式
+    var pattern=/^(13[0-9]|14[5|7|9]|15[0-9]|17[3|5|6|7|8]|18[0-9])\d{8}$/g;
+
+    var text=15227870916
+
+    var pattern0=/[a-zA-Z]+/g              //匹配单词
+
+    var pattern1=/([a-zA-Z]+)\s+\1/g       //匹配中间右空格的单词，即相邻重复单词
+
+    var pattern2=/\b([a-zA-Z]+)\s+\1\b/g    //加上单词边界
+
+</script>
+
+</body>
+</html>
