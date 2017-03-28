@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>单个表单项的验证</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #000;
+        }
+        .container{
+            width: 1000px;
+            height: 500px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 100px;
+            position: relative;
+        }
+
+        span{
+            font-family: SimHei;
+            font-size: 30px;
+
+        }
+        #name{
+            width: 400px;
+            height: 50px;
+            border-radius: 8px;
+            margin: 30px;
+            color: #000;
+            font-size: 20px;
+            border: 2px solid #ccc;
+        }
+        #btn{
+            width: 100px;
+            height: 50px;
+            background-color: #0275d8;
+            border: 1px solid #0275d8 ;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        form{
+            position: absolute;
+            top: 150px;
+            left:150px;
+            line-height: 10px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bolder;
+            color: #d9d9d9;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form>
+        <label for="name"><span>名称</span></label><input type="text" id="name">
+        <input type="button" id="btn" value="验证">
+        <p id="hint">必填，长度为4-16个字符</p>
+    </form>
+</div>
+
+<script>
+    var text=document.getElementById("name");
+
+    var btn=document.getElementById("btn");
+    var hint=document.getElementById("hint")
+        function isRight(){
+            if(text.value==""){
+                hint.innerHTML="姓名不能为空";
+                hint.style.color="#f00";
+                text.style.border="2px solid #f00";
+                return;
+            }else if(getLength(text.value)<4||getLength(text.value)>16){
+                hint.innerHTML="长度只能为4-16个字符";
+                hint.style.color="#000";
+                text.style.border="2px solid #d9d9d9";
+                return;
+
+            }else{
+                hint.innerHTML="名称格式正确";
+                hint.style.color="#00bf00";
+                text.style.border="2px solid #00bf00";
+                return text.value;
+            }
+        }
+    //计算输入的字符长度
+    function getLength(str) {
+        var countLength = 0;
+        for (var i= 0; i < str.length; i++) {
+            char_code = str.charCodeAt(i); //取每一个字符的code值
+            if (char_code >= 0 && char_code <= 128) {
+                countLength += 1; //如果非汉字就自加1
+            } else {
+                countLength += 2; //如果非汉字以外就自加2
+            }
+        }
+        return countLength;
+    }
+
+    btn.addEventListener("click",isRight,false);
+</script>
+
+</body>
+</html>

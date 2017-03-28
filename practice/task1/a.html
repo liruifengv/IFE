@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task29 表单（一）单个表单项的检验</title>
+    <style type="text/css">
+        body {
+            font-family: "Microsoft Yahei"
+        }
+
+        input[type="button"] {
+            border: none;
+            background-color: #2F79BA;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        input[type="text"] {
+            padding: 7px;
+        }
+
+        p {
+            font-size: .8rem;
+            color: #BBBBBB;
+            margin: 0 0 0 35px;
+        }
+    </style>
+</head>
+
+<body>
+<label for="name">名称</label>
+<input type="text" id="name" />
+<input type="button" id="validate" value="验证" />
+<p id="hint">必填，长度为4~16个字符</p>
+
+<script type="text/javascript">
+    var text = document.getElementById('name');
+    var hint = document.getElementById('hint');
+    var text_input = document.getElementById('name');
+    //验证
+    function isRight() {
+        if (text.value == "") { //验证是否为空
+            hint.innerHTML = "姓名不能为空";
+            hint.style.color = "#f00";
+            text_input.style.border = "2px solid #f00";
+            return;
+        } else if (getLength(text.value) < 4 || getLength(text.value) > 16) { //验证长度是否符合标准
+            hint.innerHTML = "长度只能为为4~16个字符";
+            hint.style.color = "#f00";
+            text_input.style.border = "2px solid #f00";
+            return;
+        } else {
+            hint.innerHTML = "名称格式正确";
+            hint.style.color = "#0f0";
+            text_input.style.border = "2px solid #0f0";
+            return text.value
+        }
+    }
+    //计算输入的字符长度
+    function getLength(str) {
+        var countLength = 0;
+        for (var i = 0; i < str.length; i++) {
+            char_code = str.charCodeAt(i); //取每一个字符的code值
+            if (char_code >= 0 && char_code <= 128) {
+                countLength += 1; //如果非汉字就自加1
+            } else {
+                countLength += 2; //如果非汉字以外就自加2
+            }
+        }
+        return countLength;
+    }
+    document.getElementById("validate").addEventListener("click", isRight, false)
+</script>
+</body>
+
+</html>
