@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JavaScript 和树</title>
+    <style>
+        #father{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 400px;
+            height: 100px;
+            border: 1px solid #000;
+            padding: 15px 10px;
+            margin: 5px;
+            background-color: #fff;
+        }
+        .leftChild,.rightChild{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 170px;
+            height: 60px;
+            border: 1px solid #000;
+            padding: 15px 10px;
+            margin: 5px;
+            background-color: #fff;
+        }
+        .leftChild0,.rightChild0,.leftChild1,.rightChild1{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 75px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 5px;
+            padding: 15px 10px;
+            background-color: #fff;
+        }
+        .btn{
+            width: 100px;
+            height: 40px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+            color: #FF0000;
+            font-size: 15px;
+            margin: 10px;
+        }
+        .btn:hover{
+            background-color: #FF0000;
+            color: #fff;
+            border:1px solid #FF0000;
+        }
+    </style>
+</head>
+<body>
+<div id="father">
+    <div class="leftChild">
+        <div class="leftChild0"></div>
+        <div class="rightChild0"></div>
+    </div>
+    <div class="rightChild">
+        <div class="leftChild1"></div>
+        <div class="rightChild1"></div>
+    </div>
+</div>
+<form>
+    <input  class="btn" type="button" id="preOrder" value="前序遍历">
+    <input  class="btn" type="button" id="inOrder" value="中序遍历">
+    <input  class="btn" type="button" id="postOrder" value="后序遍历">
+</form>
+
+<script>
+    var arr=[];
+
+
+    //前序遍历
+    function preOrder(node){
+        if(!(node==null)){
+            arr.push(node);
+            preOrder(node.firstElementChild);
+            preOrder(node.lastElementChild);
+        }
+    }
+
+    //中序遍历
+    function inOrder(node){
+        if(!(node==null)){
+            inOrder(node.firstElementChild);
+            arr.push(node);
+            inOrder(node.lastElementChild);
+        }
+    }
+
+    //后序遍历
+    function postOrder(node){
+        if(!(node==null)){
+            postOrder(node.firstElementChild);
+            postOrder(node.lastElementChild);
+            arr.push(node);
+        }
+    }
+
+
+    function render(){
+
+        var i=0;
+        arr[i].style.backgroundColor="#ff0000";
+        var timer=setInterval(function(){
+            i++;
+            if(i>=arr.length){
+                clearInterval(timer);
+                arr[arr.length-1].style.backgroundColor="#fff";
+
+            }else{
+                arr[i-1].style.backgroundColor="#fff";
+                arr[i].style.backgroundColor="#ff0000";
+            }
+        },500);
+    }
+
+    var preorder=document.getElementById("preOrder");
+    var father=document.getElementById("father");
+    preorder.onclick=function(){
+        preOrder(father);
+        render();
+    }
+
+    var inorder=document.getElementById("inOrder");
+    inorder.onclick=function(){
+        inOrder(father);
+        render();
+    }
+    var postorder=document.getElementById("postOrder");
+    postorder.onclick=function(){
+        postOrder(father);
+        render();
+    }
+</script>
+</body>
+</html>
