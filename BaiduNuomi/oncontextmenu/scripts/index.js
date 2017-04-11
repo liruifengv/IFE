@@ -1,7 +1,7 @@
 /**
  * Created by æ…√Œ on 2017/3/23.
  */
-window,onload=function(){
+window.onload=function(){
     document.oncontextmenu=function(){
         return false;
     };                                          //∆¡±Œ“≥√Ê±æ…Ì”“º¸≤Àµ•
