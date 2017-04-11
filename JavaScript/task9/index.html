@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JavaScript 和树</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 10px;
+        }
+        #father{
+            display: flex;
+            flex-flow: row nowrap;
+
+            height: 100px;
+            border: 1px solid #000;
+            padding: 15px 10px;
+            margin: 5px;
+            background-color: #fff;
+        }
+
+        .T100,.T200{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 500px;
+            height: 60px;
+            border: 1px solid #000;
+            padding: 15px 10px;
+            margin: 5px;
+            background-color: #fff;
+        }
+        .T300{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 100px;
+            height: 60px;
+            border: 1px solid #000;
+            padding: 15px 10px;
+            margin: 5px;
+            background-color: #fff;
+        }
+        .T110{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 200px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 5px;
+            padding: 15px 10px;
+            background-color: #fff;
+        }
+        .T110>.T111,.T112,.T113{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 30px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 2px;
+            background-color: #fff;
+        }
+        .T114{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 40px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 2px;
+            background-color: #fff;
+        }
+        .T120{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 30px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 5px;
+            padding: 15px 10px;
+            background-color: #fff;
+        }
+        .T130{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 100px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 5px;
+            padding: 15px 10px;
+            background-color: #fff;
+        }
+        .T131,.T132{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 40px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 2px;
+            background-color: #fff;
+        }
+        .T210,.T220{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 200px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 5px;
+            padding: 15px 10px;
+            background-color: #fff;
+        }
+        .T211,.T212,.T213{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 50px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 2px;
+            background-color: #fff;
+        }
+        .T221,.T222{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 80px;
+            height:20px;
+            border: 1px solid #000;
+            margin: 2px;
+            background-color: #fff;
+        }
+        .T2211{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 30px;
+            height:15px;
+            border: 1px solid #000;
+            margin: 2px;
+            background-color: #fff;
+        }
+        .btn{
+            width: 100px;
+            height: 40px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+            color: #FF0000;
+            font-size: 15px;
+            margin: 10px;
+        }
+        .btn:hover{
+            background-color: #FF0000;
+            color: #fff;
+            border:1px solid #FF0000;
+        }
+        #input{
+            width: 200px;
+            height: 40px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="father">
+    Super
+    <div class="T100">  Car
+        <div class="T110">Apple
+            <div class="T111">Pear</div>
+            <div class="T112">Pig</div>
+            <div class="T113">Cola</div>
+            <div class="T114">Soccor</div>
+        </div>
+        <div class="T120">Phone</div>
+        <div class="T130">BS
+            <div class="T131">Book</div>
+            <div class="T132">School</div>
+        </div>
+    </div>
+    <div class="T200">Note
+        <div class="T210">Human
+            <div class="T211">Code</div>
+            <div class="T212">Oporate</div>
+            <div class="T213">Man</div>
+        </div>
+        <div class="T220">Program
+            <div class="T221">Bement
+                <div class="T2211">Cat</div>
+            </div>
+            <div class="T222">Class</div>
+        </div>
+    </div>
+    <div class="T300">Fish</div>
+</div>
+<form>
+    <input  class="btn" type="button" id="pre" value="前序遍历">
+    <input  class="btn" type="button" id="post" value="后序遍历">
+    <input id="input" type="text" placeholder="请输入要查找的内容">
+    <input class="btn" type="button" id="search" value="查找">
+</form>
+
+<script>
+    var arr=[];
+
+    //前序遍历
+    function preOrder(node){
+        arr.push(node);
+       for(var i=0;i<node.childElementCount;i++){
+            if(node.children[i]!=null){
+                preOrder(node.children[i]);
+            }
+       }
+
+    }
+
+    //后序遍历
+    function postOrder(node){
+        for(var i=0;i<node.childElementCount;i++){
+            if(node.children[i]!=null)
+            postOrder(node.children[i]);
+        }
+            arr.push(node);
+
+    }
+
+
+    function render(){
+
+        var i=0;
+        arr[i].style.backgroundColor="#ff0000";
+        var timer=setInterval(function(){
+            i++;
+            if(i>=arr.length){
+                clearInterval(timer);
+                arr[arr.length-1].style.backgroundColor="#fff";
+
+            }else{
+                arr[i-1].style.backgroundColor="#fff";
+                arr[i].style.backgroundColor="#ff0000";
+            }
+        },500);
+    }
+    function _click(){
+        for(var i=0;i<arr.length;i++){
+            arr[i-1].onclick=function(){
+                arr[i-1].style.backgroundColor="#ff0000";
+            }
+        }
+    }
+    window.onload=_click();
+    function searchFunc(word){
+        var i=0;
+        arr[i].style.backgroundColor="#ff0000";
+        var timer=setInterval(function(){
+            i++;
+            if(input.value==""){
+                clearInterval(timer);
+                alert("请输入内容")
+                return;
+            }
+
+            if(i>=arr.length){
+                clearInterval(timer);
+                arr[arr.length-1].style.backgroundColor="#fff";
+                alert("未查找到内容");
+                return;
+            }else{
+                arr[i-1].style.backgroundColor="#fff";
+                arr[i].style.backgroundColor="#ff0000";
+            }
+
+            if(arr[i].childNodes[0].nodeValue.search(word)!=-1){
+                alert("查找到内容");
+                clearInterval(timer);
+            }
+
+        },500)
+
+    }
+
+    function reset(){
+        for(var i=0;i<arr.length;i++){
+            arr[i].style.backgroundColor="#fff";
+        }
+    }
+
+    var pre=document.getElementById("pre");
+    var father=document.getElementById("father");
+    pre.onclick=function(){
+        preOrder(father);
+        render();
+    }
+
+    var post=document.getElementById("post");
+    post.onclick=function(){
+        postOrder(father);
+        render();
+    }
+    var search=document.getElementById("search");
+    var input=document.getElementById("input");
+    search.onclick=function(){
+        reset();
+        preOrder(father);
+        searchFunc(input.value);
+    }
+</script>
+</body>
+</html>
