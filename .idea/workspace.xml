@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="690b4d91-d076-4d72-8967-8f38e3ec4fef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/task3/city.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/task3/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/task3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/task3/Demo1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IFE.iws" />
@@ -26,12 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice/task3/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.14086956">
+            <state vertical-scroll-proportion="61.705883">
               <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/task3/Demo1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.107826084">
+              <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#option#0;n#select#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#option#0;n#select#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/小薇学院/task6/index.html" />
         <option value="$PROJECT_DIR$/小薇学院/task2/style/common.css" />
         <option value="$PROJECT_DIR$/小薇学院/task6/style/style.css" />
         <option value="$PROJECT_DIR$/小薇学院/task7/index.html" />
@@ -104,6 +114,7 @@
         <option value="$PROJECT_DIR$/practice/task3/city.js" />
         <option value="$PROJECT_DIR$/practice/task3/index.html" />
         <option value="$PROJECT_DIR$/practice/task3/demo.html" />
+        <option value="$PROJECT_DIR$/practice/task3/Demo1.html" />
       </list>
     </option>
   </component>
@@ -586,9 +597,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/task3/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.14086956">
+        <state vertical-scroll-proportion="61.705883">
           <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/task3/Demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.107826084">
+          <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#option#0;n#select#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#option#0;n#select#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
