@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>表单（三）联动</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #000;
+        }
+        .container{
+            width: 1000px;
+            height: 500px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px solid #000;
+            line-height: 100px;
+            position: relative;
+            text-align: center;
+        }
+        form{
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        input{
+            margin-left: 300px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <form>
+        <input type="radio"  name="radio" value="在校生"/>
+        <input type="radio"  name="radio" value="非在校生"/>
+
+        <br>
+
+        <div id="box">
+        </div>
+    </form>
+
+</div>
+<script>
+  window.onload=function _switch(){
+        var box=document.getElementById("box");
+      var arr=document.getElementsByName("radio");
+      for(var i=0;i<arr.length;i++)
+      {
+          if(arr[0].checked)
+          {
+              console.log(school);
+              var city=document.createElement("select");
+              var oSchool=document.createElement("select");
+              var label=document.createElement("label");
+              var p=document.createTextNode("学校");
+              label.appendChild(p);
+              box.appendChild(label);
+              box.appendChild(city);
+              box.appendChild(oSchool);
+              city.options[0]=new Option("请选择城市","-1");
+              oSchool.options[0]=new Option("请选择学校","-1");
+
+              //循环第一步
+              for(var i=0;i<school.length;i++) {
+                  city.options[city.length] = new Option(school[i].name,i);
+                  city.onchange = function () {
+                      //恢复默认选项
+                      oSchool.options[0].selected = true;
+                      //qu.options[0].selected = true;
+                      //清空市区选项
+                      oSchool.options.length = 0;
+                      oSchool.options[oSchool.length] = new Option("请选择学校", "-1");
+                      // qu.options.length = 0;
+                      //  qu.options[qu.length] = new Option("请选择区", "-1");
+                      for (var j = 0; j < school[city.selectedIndex - 1].school.length; j++) {
+                          oSchool.options[oSchool.length] = new Option(school[city.selectedIndex - 1].school[j].name, j);
+                      }
+                  }
+              }
+          }
+
+              if(arr[1].checked){
+                  var input=document.createElement("input");
+                  var label=document.createElement("label");
+                  var p=document.createTextNode("就业单位");
+                  label.appendChild(p);
+                  box.appendChild(label);
+                  box.appendChild(input);
+          }
+      }
+
+
+    }
+</script>
+<script type="text/javascript">
+    var school=[
+        {
+            "name": "河北", "school": [
+
+            { "name": "河北大学"},
+
+            { "name": "河北科技大学"},
+
+            { "name": "河北师范大学"},
+
+            { "name": "河北地质大学"},
+
+            { "name": "河北传媒学院"},
+
+        ]
+        },
+        {
+            "name": "北京", "school": [
+
+            { "name": "北京大学"},
+
+            { "name": "北京科技大学"},
+
+            { "name": "北京师范大学"},
+
+            { "name": "北京地质大学"},
+
+            { "name": "清华大学"},
+        ]
+        },
+    ]
+</script>
+</body>
+</html>
