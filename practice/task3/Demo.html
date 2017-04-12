@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #form{
+            margin-top: 100px;
+            text-align: center;
+            position: relative;
+        }
+        .radio{
+            margin: 20px;
+        }
+        .unit{
+            margin: 20px;
+        }
+        label{
+            font-size: 20px;
+        }
+        .list{
+            margin: 0 auto;
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            border: 1px solid #aaa222;
+            position: relative;
+            top: -20px;
+            left: -106px;
+            z-index: -1;
+            background-color: #0072e3;
+        }
+        .list:nth-of-type(2){
+            position: relative;
+            top: -38px;
+            left: 18px;
+            background-color: #fff;
+        }
+        .listR{
+            margin: 0 auto;
+            width: 6px;
+            height: 6px;
+            border-radius: 6px;
+            background-color: #fff;
+            position: relative;
+            top: 5px;
+            left: 1px;
+        }
+        span{
+            font-size: 18px;
+        }
+        select{
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #a8a8a8;
+        }
+        #city{
+            width: 150px;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        #university{
+            width: 250px;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        #school{
+            margin-top: 50px;
+        }
+        .cText{
+            margin-left: 20px;
+            margin-right: 34px;
+            font-size: 18px;
+            height: 30px;
+            width: 425px;
+            border-radius: 5px;
+            border: 2px solid #a8a8a8;
+        }
+        #company{
+            margin-top: 50px;
+            display: none;
+        }
+        #inSchool,#outSchool{
+            cursor: pointer;
+            margin-right: 5px;
+            opacity: 0;
+
+        }
+
+    </style>
+</head>
+<body>
+<div id="form">
+    <label class="radio">
+        <input type="radio" id="inSchool" name="radio" value="0" checked>在校生
+    </label>
+    <label class="radio">
+        <input type="radio" id="outSchool" name="radio" value="1">非在校生
+    </label>
+
+    <div class="list">
+        <div class="listR"></div>
+    </div>
+    <div class="list">
+        <div class="listR"></div>
+    </div>
+
+    <div class="unit" id="school">
+        <span>学校</span>
+        <select id="city">
+            <option value="cs" style="color: #a8a8a8;">请选择城市</option>
+            <option value="sjz">石家庄</option>
+            <option value="bj">北京</option>
+            <option value="sh">上海</option>
+        </select>
+
+        <select id="university">
+            <option style="color: #a8a8a8;">请选择大学</option>
+        </select>
+    </div>
+
+
+    <div class="unit" id="company">
+        <span>事业单位</span>
+        <input type="text" class="cText">
+    </div>
+</div>
+
+<script>
+
+    //事件绑定函数，兼容浏览器差异
+    function addEvent(element, event, listener) {
+        if (element.addEventListener) {
+            element.addEventListener(event, listener, false);
+        }
+        else if (element.attachEvent) {
+            element.attachEvent("on"+event, listener);
+        }
+        else {
+            element["on"+event]=listener;
+        }
+    }
+
+
+    //绑定事件
+    var inSchool=document.getElementById("inSchool");
+    var outSchool=document.getElementById("outSchool");
+    var list=document.getElementsByClassName("list");
+    var school=document.getElementById("school");
+    var comany=document.getElementById("company");
+    var city=document.getElementById("city");
+    var btn=city.getElementsByTagName("option");
+    var university=document.getElementById("university");
+    var sjz=["河北科技大学","河北师范大学","河北科技大学理工学院"];
+    var bj=["清华大学","北京大学","北京电影学院"];
+    var sh=["复旦大学","上海交通大学","上海师范大学"];
+
+    //点击在校生时，改变radio效果，隐藏非在校生信息
+    addEvent(inSchool,"click",function(){
+        list[0].style.backgroundColor="#0072e3";
+        list[1].style.backgroundColor="#fff";
+        school.style.display="block";
+        comany.style.display="none";
+    });
+    //点击非在校生时，改变radio效果，隐藏在校生信息
+    addEvent(outSchool,"click",function(){
+        list[1].style.backgroundColor="#0072e3";
+        list[0].style.backgroundColor="#fff";
+        school.style.display="none";
+        comany.style.display="block";
+    });
+
+    //实现联动效果
+    addEvent(city,"change",function(){
+        reset();
+        var selected=city.value;
+        if(selected=="sjz"){
+            for(var i=0;i<sjz.length;i++){
+                var opt=document.createElement("option");
+                opt.innerHTML=sjz[i];
+                university.appendChild(opt);
+            }
+        }else if(selected=="bj"){
+            for(var i=0;i<bj.length;i++){
+                var opt=document.createElement("option");
+                opt.innerHTML=bj[i];
+                university.appendChild(opt);
+            }
+        }else if(selected=="sh"){
+            for(var i=0;i<sh.length;i++){
+                var opt=document.createElement("option");
+                opt.innerHTML=sh[i];
+                university.appendChild(opt);
+            }
+        }
+    });
+    //重置大学信息
+    function reset(){
+        var c_length=university.options.length;
+        if(c_length>1){
+            for(var i=0;i<c_length;i++){
+                university.options.remove(c_length-i);
+            }
+        }
+    }
+</script>
+</body>
+</html>

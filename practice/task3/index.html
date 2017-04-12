@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>城市联动</title>
+
+</head>
+<body>
+<div id="div"></div>
+
+<script type="text/javascript" src="city.js"></script>
+<script>
+    window.onload=function(){
+        console.log(city);
+        //创建省市区
+        var oDiv=document.getElementById("div");
+        var sheng=document.createElement("select");
+        var shi=document.createElement("select");
+        var qu=document.createElement("select");
+        oDiv.appendChild(sheng);
+        oDiv.appendChild(shi);
+        oDiv.appendChild(qu);
+        sheng.options[0]=new Option("请选择省","-1");
+        shi.options[0]=new Option("请选择市","-1");
+        qu.options[0]=new Option("请选择区","-1");
+
+        //循环第一步
+        for(var i=0;i<city.length;i++){
+            sheng.options[sheng.length]=new Option(city[i].name,i);
+            sheng.onchange=function(){
+                //恢复默认选项
+                shi.options[0].selected=true;
+                qu.options[0].selected=true;
+               //清空市区选项
+                shi.options.length=0;
+                shi.options[shi.length]=new Option("请选择市","-1");
+                qu.options.length=0;
+                qu.options[qu.length]=new Option("请选择区","-1");
+                for(var j=0;j<city[sheng.selectedIndex-1].city.length;j++){
+                    shi.options[shi.length]=new Option(city[sheng.selectedIndex-1].city[j].name,j);
+                    shi.onchange=function(){
+                        //恢复默认选项
+                        qu.options[0].selected=true;
+
+                        qu.options.length=0;
+                        qu.options[qu.length]=new Option("请选择区","-1");
+                        for(var k=0;k<city[sheng.selectedIndex-1].city[shi.selectedIndex-1].area.length;k++){
+                            qu.options[qu.length]=new Option(city[sheng.selectedIndex-1].city[shi.selectedIndex-1].area[k],k);
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+</script>
+
+</body>
+</html>
